@@ -19,7 +19,7 @@ Please star this repo by clicking the Star box in the top right corner if you fi
 - Written in **Object Pascal**
 - Support Windows 64 bit platform
 - Hardware accelerated with **Direct3D**
-- You interact with GamePascal from routines in the `GaamePascal` unit.
+- You interact with GamePascal from routines in the `GamePascal` unit.
 - **Archive** (custom archive format, password protected)
 - **Window** (Direct3D, primitives, blending)
 - **Input** (keyboard, mouse and game controller)
