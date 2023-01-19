@@ -6,7 +6,7 @@
 ## Overview
 GamePascal&trade; is a professional indie game toolkit that allows you to do 2D game development in using the <a href="https://en.wikipedia.org/wiki/Object_Pascal" target="_blank">Object Pascal</a> language. Officially supporting <a href="https://www.embarcadero.com/products/delphi" target="_blank"> Embarcadero Delphi®</a> and <a href="https://www.freepascal.org/" target="_blank">FreePascal</a> compilers on desktop PC's running Microsoft Windows® and uses Direct3D® for hardware accelerated rendering.
 
-It's robust, designed for easy use and suitable for making all types of 2D games and other graphic simulations. You access the features from a simple and intuitive API, to allow you to develop your projects rapidly and efficiently. There is support for textures, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive, a thin object-oriented actor/scene system, collision detection and much more. DelphiGamekit, easy, fast & fun!
+It's robust, designed for easy use and suitable for making all types of 2D games and other graphic simulations. You access the features from a simple and intuitive API, to allow you to develop your projects rapidly and efficiently. There is support for textures, audio samples, streaming music, video playback, loading resources directly from a compressed and encrypted archive, a thin object-oriented actor/scene system, collision detection and much more. GamePascal, make 2D games in Pascal. Easy, fast & fun!
 
 Please star this repo by clicking the Star box in the top right corner if you find it useful!
 
