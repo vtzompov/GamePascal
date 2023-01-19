@@ -1078,13 +1078,13 @@ uses
 procedure ConsolePrintva(aMsg: string; aArgs: array of const);
 begin
   if not ConsoleExist then Exit;
-  ConsolePrint(WideString(GamePascal.Format(aMsg, aArgs)));
+  ConsolePrint(GamePascal.Format(aMsg, aArgs));
 end;
 
 procedure ConsolePrintLnva(aMsg: string; aArgs: array of const);
 begin
   if not ConsoleExist then Exit;
-  ConsolePrintLn(WideString(GamePascal.Format(aMsg, aArgs)));
+  ConsolePrintLn(GamePascal.Format(aMsg, aArgs));
 end;
 
 //=== UTILS =================================================================
