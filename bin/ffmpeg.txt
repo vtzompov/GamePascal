@@ -1,0 +1,8 @@
+FFmpeg.exe is used for audio/video conversion.
+
+1. Download here:
+https://github.com/BtbN/FFmpeg-Builds/releases (win64 version)
+
+2. Place ffmpeg.exe in installdir\bin folder (same location as GVArc.exe)
+
+3. You can use GVAudio/GVVideo.bat to convert audio/video to compatiable formats.

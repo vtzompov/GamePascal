@@ -1,0 +1,192 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6797AD0D-AEDB-4197-A664-538E11D12C29}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="font_unicode\font_unicode.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="music_play\music_play.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="speech_play\speech_play.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="screenshake\screenshake.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="starfield_render\starfield_render.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="texture_render\texture_render.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="texture_colorkey\texture_colorkey.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="texture_parallax\texture_parallax.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="texture_tiled\texture_tiled.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="entity_render\entity_render.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="entity_collision\entity_collision.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="video_play\video_play.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="video_chained_play\video_chained_play.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="demo_elastic\demo_elastic.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="font_unicode">
+        <MSBuild Projects="font_unicode\font_unicode.dproj"/>
+    </Target>
+    <Target Name="font_unicode:Clean">
+        <MSBuild Projects="font_unicode\font_unicode.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="font_unicode:Make">
+        <MSBuild Projects="font_unicode\font_unicode.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="music_play">
+        <MSBuild Projects="music_play\music_play.dproj"/>
+    </Target>
+    <Target Name="music_play:Clean">
+        <MSBuild Projects="music_play\music_play.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="music_play:Make">
+        <MSBuild Projects="music_play\music_play.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="speech_play">
+        <MSBuild Projects="speech_play\speech_play.dproj"/>
+    </Target>
+    <Target Name="speech_play:Clean">
+        <MSBuild Projects="speech_play\speech_play.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="speech_play:Make">
+        <MSBuild Projects="speech_play\speech_play.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="screenshake">
+        <MSBuild Projects="screenshake\screenshake.dproj"/>
+    </Target>
+    <Target Name="screenshake:Clean">
+        <MSBuild Projects="screenshake\screenshake.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="screenshake:Make">
+        <MSBuild Projects="screenshake\screenshake.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="starfield_render">
+        <MSBuild Projects="starfield_render\starfield_render.dproj"/>
+    </Target>
+    <Target Name="starfield_render:Clean">
+        <MSBuild Projects="starfield_render\starfield_render.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="starfield_render:Make">
+        <MSBuild Projects="starfield_render\starfield_render.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="texture_render">
+        <MSBuild Projects="texture_render\texture_render.dproj"/>
+    </Target>
+    <Target Name="texture_render:Clean">
+        <MSBuild Projects="texture_render\texture_render.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="texture_render:Make">
+        <MSBuild Projects="texture_render\texture_render.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="texture_colorkey">
+        <MSBuild Projects="texture_colorkey\texture_colorkey.dproj"/>
+    </Target>
+    <Target Name="texture_colorkey:Clean">
+        <MSBuild Projects="texture_colorkey\texture_colorkey.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="texture_colorkey:Make">
+        <MSBuild Projects="texture_colorkey\texture_colorkey.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="texture_parallax">
+        <MSBuild Projects="texture_parallax\texture_parallax.dproj"/>
+    </Target>
+    <Target Name="texture_parallax:Clean">
+        <MSBuild Projects="texture_parallax\texture_parallax.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="texture_parallax:Make">
+        <MSBuild Projects="texture_parallax\texture_parallax.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="texture_tiled">
+        <MSBuild Projects="texture_tiled\texture_tiled.dproj"/>
+    </Target>
+    <Target Name="texture_tiled:Clean">
+        <MSBuild Projects="texture_tiled\texture_tiled.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="texture_tiled:Make">
+        <MSBuild Projects="texture_tiled\texture_tiled.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="entity_render">
+        <MSBuild Projects="entity_render\entity_render.dproj"/>
+    </Target>
+    <Target Name="entity_render:Clean">
+        <MSBuild Projects="entity_render\entity_render.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="entity_render:Make">
+        <MSBuild Projects="entity_render\entity_render.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="entity_collision">
+        <MSBuild Projects="entity_collision\entity_collision.dproj"/>
+    </Target>
+    <Target Name="entity_collision:Clean">
+        <MSBuild Projects="entity_collision\entity_collision.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="entity_collision:Make">
+        <MSBuild Projects="entity_collision\entity_collision.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="video_play">
+        <MSBuild Projects="video_play\video_play.dproj"/>
+    </Target>
+    <Target Name="video_play:Clean">
+        <MSBuild Projects="video_play\video_play.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="video_play:Make">
+        <MSBuild Projects="video_play\video_play.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="video_chained_play">
+        <MSBuild Projects="video_chained_play\video_chained_play.dproj"/>
+    </Target>
+    <Target Name="video_chained_play:Clean">
+        <MSBuild Projects="video_chained_play\video_chained_play.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="video_chained_play:Make">
+        <MSBuild Projects="video_chained_play\video_chained_play.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="demo_elastic">
+        <MSBuild Projects="demo_elastic\demo_elastic.dproj"/>
+    </Target>
+    <Target Name="demo_elastic:Clean">
+        <MSBuild Projects="demo_elastic\demo_elastic.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="demo_elastic:Make">
+        <MSBuild Projects="demo_elastic\demo_elastic.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="font_unicode;music_play;speech_play;screenshake;starfield_render;texture_render;texture_colorkey;texture_parallax;texture_tiled;entity_render;entity_collision;video_play;video_chained_play;demo_elastic"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="font_unicode:Clean;music_play:Clean;speech_play:Clean;screenshake:Clean;starfield_render:Clean;texture_render:Clean;texture_colorkey:Clean;texture_parallax:Clean;texture_tiled:Clean;entity_render:Clean;entity_collision:Clean;video_play:Clean;video_chained_play:Clean;demo_elastic:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="font_unicode:Make;music_play:Make;speech_play:Make;screenshake:Make;starfield_render:Make;texture_render:Make;texture_colorkey:Make;texture_parallax:Make;texture_tiled:Make;entity_render:Make;entity_collision:Make;video_play:Make;video_chained_play:Make;demo_elastic:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

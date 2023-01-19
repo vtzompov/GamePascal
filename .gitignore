@@ -67,3 +67,21 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+# GamePascal
+*.log
+*.zip
+*.arc
+*.bat
+examples/**/Win64
+bin/Screenshots
+bin/*.txt
+bin/*.ini
+docs/*.chw
+!bin/GPL.dll
+!bin/ffmpeg.txt
+!bin/GPArc.exe
+!bin/GPVideo.bat
+!bin/GPAudio.bat
+!bin/_makearc.bat
+!bin/GPCC.exe
