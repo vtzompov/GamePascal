@@ -16,7 +16,6 @@ Please star this repo by clicking the Star box in the top right corner if you fi
 <a href="https://github.com/tinyBigGAMES/GamePascal/releases" target="_blank">**Releases**</a> - These are the official release versions and deemed to be the most stable.
 
 ## Features
-- **Free** and open-source. See <a href="https://github.com/tinyBigGAMES/GamePascal/blob/main/LICENSE" target="_blank">License agreement</a>.
 - Written in **Object Pascal**
 - Support Windows 64 bit platform
 - Hardware accelerated with **Direct3D**
