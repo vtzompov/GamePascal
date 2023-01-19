@@ -63,7 +63,7 @@ Thank you very much for any support you can provide, I will be most grateful. :c
 - Add `installdir\sources`, folder to compiler's library path so the library source files can be found for any project or for a specific project add to its search path.
 - Use `GVArc` utility for making archive files (standard zip, compressed, encrypted). Running `_makearc.bat` in `installdir\bin` will build `Data.arc` that is used by the examples. 
 You can use `GPVideo.bat` and `GVAudio.bat` for video/audio conversion to formats compatiable with GPT. They use **FFmpeg** to do the actual conversion. Download and place `FFmpeg.exe` in the same location as `installdir\bin`. See `installdir\bin\ffmpeg.txt`.
-- In Delphi, load `GamePascal.groupproj` to load and compile the examples/demos/tools, which will showcase the toolkit features and how to use them.
+- In Delphi, load `GamePascal.groupproj` to load and compile the examples which will showcase the toolkit features and how to use them.
 - See examples in the `installdir\examples` folder for more information about usage.
 - See `installdir\docs` folder for documentation.
 - You must include the `GPL.dll` DLL in your project distribution.
